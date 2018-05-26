@@ -55,4 +55,4 @@ If you're interested in getting heavily involved in web development, you will ha
 You will also want to learn a lot about how Linux works so thatt you can set up and manage servers. I would recommend starting with Ubuntu, as it's relatively user friendly and very powerful.
 
 ## Thanks for reading
-I hope you found this introduction to web programming in Java useful. I've included a number of other files in the Github repo, so definitely check them out!
+I hope you found this introduction to web programming in Java useful. I've only included a hello world program in this repository, but work with it and see if you can build more complicated things!
