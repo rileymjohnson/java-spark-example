@@ -27,7 +27,19 @@ Typically, you won't want to respond to a request with just static text; you wil
 ```get("/", (req, res) -> renderContent("index.html"));```
 
 Often, you will want to accept data from users. This can be done with get or post parameters. These are little pieces of information that are passed in an HTTP request.
-```get("/sampleroute", "application/json", (request, response)->{
+```
+get("/sampleroute", "application/json", (request, response)->{
   //request.queryParams("name");
   //request.queryParams("password");
-}```
+}
+```
+
+For more sophisticated and interactive web applications, you will likely want to connect to a database. This will allow you to store information as well manage user accounts. There are many different databases, but I will show a basic connection to a database called MySQL.
+```
+dataframe_mysql = mySqlContext.read.format("jdbc").options(
+    url="jdbc:mysql://localhost:3306/my_bd_name",
+    driver = "com.mysql.jdbc.Driver",
+    dbtable = "my_tablename",
+    user="root",
+    password="root").load()
+```
