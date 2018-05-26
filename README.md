@@ -46,11 +46,11 @@ dataframe_mysql = mySqlContext.read.format("jdbc").options(
 
 ## What's next?
 If you're interested in getting heavily involved in web development, you will have to learn a plethora of language and frameworks. To start, I would recommend learning these things:     
-*HTML: for creating basic mark up and content
-*CSS: for styling web pages
-*Javascript: for creating interactive sites and for interacting with servers (this language is only getting more and popular, so it's definitely a good choice)
-*Java (or others): for server side application development
-*SQL: for querying and interacting with databases
++ HTML: for creating basic mark up and content
++ CSS: for styling web pages
++ Javascript: for creating interactive sites and for interacting with servers (this language is only getting more and popular, so it's definitely a good choice)
++ Java (or others): for server side application development
++ SQL: for querying and interacting with databases
 
 You will also want to learn a lot about how Linux works so thatt you can set up and manage servers. I would recommend starting with Ubuntu, as it's relatively user friendly and very powerful.
 
