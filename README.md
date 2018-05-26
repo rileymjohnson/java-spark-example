@@ -25,3 +25,9 @@ This line creates a HTTP post request. This type of request is used for submitti
 
 Typically, you won't want to respond to a request with just static text; you will likely want to respond with a web page. This can be done by rendering an HTML template. The request below demonstrates how to render the file "index.html".     
 ```get("/", (req, res) -> renderContent("index.html"));```
+
+Often, you will want to accept data from users. This can be done with get or post parameters. These are little pieces of information that are passed in an HTTP request.
+```get("/sampleroute", "application/json", (request, response)->{
+  //request.queryParams("name");
+  //request.queryParams("password");
+}```
